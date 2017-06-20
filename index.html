@@ -11,26 +11,33 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div id="week">
-      <img src="img/dice2.jpg" alt="Pig Dice">
-    </div>
+  <div class=jumbotron>
+  <div class="row text-center" >
+    <!-- <div class="text-center"> -->
+      <img class="img-thumbnail" src="img/rolld.png" alt="Pig Dice">
+    <!-- </div> -->
+  </div>
+</div>
     <div class="row patre">
       <div class="col-md-6">
         <img src="img/download.png" alt="player1">
-        <form class="form-group">
-          <input type="button" name="" value="roll dice!">
+        <form class="form-group" id="player1">
+          <input type="button" name="" value="roll dice!" id="game1">
+          <input type="text" name="" value="" id="score1">
         </form>
+        <p id="score1"></p>
 
       </div>
       <div class="col-md-6">
         <img src="img/download.png" alt="player2">
-        <form class="form-group">
-          <input type="button" name="" value="roll dice!">
+        <form class="form-group" id="player2">
+          <input type="button" name="" value="roll dice!" id="game2">
+          <input type="text" name="" value="" id="score2">
         </form>
+        <p id="score2"></p>
       </div>
     </div>
-  </div>
+
 </body>
 
 </html>
